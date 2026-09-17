@@ -37,7 +37,10 @@ body{
     padding-top: 230px;
     right: 0;
 }
-
+/* menu hamburguer para mobile */
+.menu-toggle{
+    display: none;
+}
 /* Cabeçalho do site */
 .main-nav{
     background-color: var(--cor-primary);
@@ -283,4 +286,76 @@ footer p{
     font-family: 'poppins', sans-serif ;
     display: flex;
     justify-content: center;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .paper-left-up img{
+        top: 0;
+        width: 100px;
+    }
+    .paper-right-down img{
+        top: 100%;
+        width: 100px;
+    }
+
+    .menu-toggle{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+
+        background: none;
+        border: none;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    .main-nav.active{
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.brand{
+        left: 30px;
+    }
+    a.brand img{
+        width: 100px;
+    }
+
+
+    .info-cards{
+        top: 400px;
+    }
+
+
+
+    .ruth-character{
+        left: 50%;
+        top: 400px;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+    figure.ruth-character img {
+        width: 120px;
+    }
+
+    .hero-scribbles img{
+        left: 50%;
+        top: 180px;
+        transform: translateX(-50%);
+        width: 370px;
+    }
+
+
 }
