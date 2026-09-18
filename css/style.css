@@ -1,10 +1,5 @@
 @import url('https://googleapis.com');
-@font-face {
-    font-family: 'Letters for Learners';
-    src: url('fonts/Letters for Learners.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 * {
     margin: 0;
     padding: 0;
