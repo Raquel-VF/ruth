@@ -245,7 +245,8 @@ figure.ruth-character img{
     align-items: center;
 }
 .product-slider img{
-    margin: 10px;
+    margin: 0px 30px;
+    width: 70px;
 }
 
 .product-slider h3{
