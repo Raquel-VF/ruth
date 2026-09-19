@@ -171,19 +171,17 @@ a.brand{
     height: 50px;
     border-radius: 50%;
     border: none;
-    background: white;
+    background: none;
     position: absolute;
     top: 200px;
     cursor: pointer;
     z-index: 10;
 }
 .slider-button:hover{
-    background: #efefef;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .slider-button--prev{
     left: 550px;
-    
 }
 .slider-button--next{
     right: 505px;
