@@ -24,11 +24,18 @@ footer{
 }
 
 /*Slider de produtos*/
+.products-container{
+    height:300px;
+    overflow-y: auto;
+    margin: 0 20px;
+    
+}
 .product-slider{
+    display: flex;
     flex-direction: row;
     margin:20px;
     overflow: hidden;
-    animation: rolar 20s linear infinite;
+    
 }
 .description-product-card{
     display: flex;
@@ -58,12 +65,3 @@ footer{
     font-size: 15px;
 
 }   
-
-@keyframes rolar {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}

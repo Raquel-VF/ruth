@@ -1,0 +1,116 @@
+.container-diario-transmissao{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.transmissao{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.transmissao h2{
+    font-size: 32px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secondary);
+    font-weight: 800;   
+    font-family: cursive, sans-serif;
+}
+.transmissao p{
+    font-family: cursive, sans-serif;
+    padding: 20px;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.diario{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+}
+.diario h2{
+    font-size: 32px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secondary);
+    font-weight: 800;  
+    font-family: cursive, sans-serif; 
+}
+.diario p{
+    font-family: cursive, sans-serif;
+    padding: 20px;
+    padding-top: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* informaçoes da ruth */
+.info-cards{
+    width: 200px;
+    height: 400px;
+    left: 50px;
+}
+.info-card.info-card--about{
+    left:0;
+    top: -7px;
+}
+.info-card.info-card--thought{
+    left: 0;
+    top: 130px;
+}
+.info-card.info-card--contact{
+    left: 0;
+    top: 268px;
+}
+
+/* botão setas */
+.slider-button{
+    top: 330px;
+}
+.slider-button:hover{
+    transform: scale(1.2);
+}
+.slider-button--prev{
+    left: 500px;
+}
+.slider-button--next{
+    right: 400px;
+}
+
+.slider-button--prev---transmission{
+    left: 500px;
+    top: 70px;
+}
+.slider-button--next---transmission{
+    right: 300px;
+    top: 70px;
+}
+
+/* stickers */
+
+.sticker-icone-ruth{
+    position: absolute;
+    right: 110px;
+    top: -20px;
+    transform: rotate(18deg);
+} 
+.sticker-icone-ruth:hover{
+    transform: scale(0.8) rotate(8deg);
+}
+
+.sticker-diario{
+    position: absolute;
+    right: 200px;
+    top: 240px;
+}  
+.sticker-ruth-tricotando{
+    position: absolute;
+    right: 0px;
+    top: 400px;
+}   
